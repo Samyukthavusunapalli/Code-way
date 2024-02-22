@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@1,8..60,300&display=swap');
+/*#port.html*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.sidebar{
+	background-color:black;
+/*	width: 200px;*/
+	height: 100px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: hotpink;
+	margin-top: 70px;
+}
+.sidebar nav{
+	padding: 60px;
+/*	justify-content: space-between;*/
+}
+.sidebar nav li{
+	padding: 25px;
+	list-style: none;
+	font-size: 25px;
+	border-right: 3px solid hotpink;
+}
+a{
+	text-decoration: none;
+	color: hotpink;
+}
+a:hover{
+	transform: scale(1s);
+		text-shadow:3px 4px 2px indianred;
+		color: ghostwhite;
+}
+.main{
+	background-color: black;
+	width: 100%;
+	height: 100vh;
+/*	margin-left: 10px;*/
+	margin-top: 70px;
+}
+.container{
+	display: flex;
+	background-color: black;
+	height: 800px;
+	width: 100%;
+}
+.infocontainer{
+/*	background-color: yellow;*/
+	height: 80vh;
+	width: 80vw;
+	margin: 100px auto;
+	display: flex;
+	justify-content: space-around;
+}
+.devinfo{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: font-family: 'Source Serif 4', serif;
+}
+.hello{
+	font-size: 60px;
+	color: hotpink;
+}
+.name{
+	font-size: 50px;
+	font-weight: bold;
+	color: hotpink;
+	margin-top: 20px; 
+}
+.name:hover{
+	transform: scale(1s);
+		text-shadow:3px 4px 2px indianred;
+		color: ghostwhite;
+}
+.about{
+	font-size: 40px;
+	color: hotpink;
+	margin-top: 40px;
+}
+.about:hover{
+	transform: scale(1s);
+		text-shadow:3px 4px 2px indianred;
+		color: ghostwhite;
+}
+.buttons{
+	margin-top: 120px;
+	margin-left: 00px;
+
+}
+.buttons button{
+	padding: 15px;
+	border-radius: 25px;
+	color:  hotpink;
+	background-color:transparent;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0 3 px;
+	cursor: pointer;
+	border :2px solid hotpink;
+	box-shadow: 4px 4px hotpink;
+}
+.buttons button:hover{
+	color: hotpink;
+	background-color: #ECF0F1;
+	transition: 0.6;
+	transform: scale(1.1);
+}
+.devpic img {
+	width: auto;
+	height: 467px;
+}
+.devpic img:hover{
+	transform: scale(1.5);
+/*	transition: transform 1.2s;*/
+}
+
+
+
+
+
+/*#skill.html*/
+section{                           
+	font-size: 60px;
+	margin-left: -160px;
+	color: hotpink;
+	background-color: black;
+/*	text-align: center;*/
+}
+.skillcontainer{
+	
+	margin-top: 0px;
+	margin-left: 0px;
+	font-size: 20px;
+	width: 100%;
+	height:2000px
+/*	background-color: black;*/
+	color: black;
+	padding: 15px;
+/*	background-size: cover;*/
+/*	background-color: black;*/
+}
+.skillitem {
+	display: flex;
+	height: 20px;
+	width: 700px;
+/*	background-color: yellow;*/
+	margin-top: 40px;
+	font-size: 30px;
+	color: hotpink;
+}
+.skill{
+	width: 500px;
+	height:7px ;
+	background-color: hotpink;
+	border: 2px solid darkred;
+}
+.hundred{
+	width:265px;
+	background-color: ghostwhite;
+	padding: 3px;
+	height:2px ;
+}
+.Seventyfive{
+	width: 170px;
+	background-color: ghostwhite;
+	padding: 3px;
+	height:2px ;
+}
+.fifty{
+	width: 90px;
+	background-color: ghostwhite;
+	padding: 3px;
+	height:2px ;
+}
+
+
+
+
+
+
+/*#project.html*/
+/*.Project-1{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	text-decoration: none;
+	background-color: black;
+	color: hotpink;
+}*/
+.main1{
+	background-color: black;
+	width: 100%;
+	height: 800px;
+	color: white;
+}
+.p1
+{
+	height: 500px;
+	width: 1000px;
+	background-color: transparent;
+	margin-top: 35px;
+	margin-left: 20px;
+	font-size: 20px;
+	color:hotpink;
+}
+.p2
+{
+	height: 500px;
+	width: 100%;
+	background-color:black;
+	margin-top: 50px;
+	margin-right: 20px;
+	font-size: 25px;
+	color: hotpink;
+}
+.sidebar1{
+	background-color:black;
+	width: 300px;
+	height: 1090px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: hotpink;
+	margin-top: 70px;
+}
+.sidebar1 nav{
+	padding: 60px;
+/*	justify-content: space-between;*/
+}
+.sidebar1 nav li{
+	padding: 25px;
+	list-style: none;
+	font-size: 25px;
+	border-right: 3px solid hotpink;
+}
+h2{
+	margin-left: -100px;
+}
+
+
+
+
+
+/*home*/
+.mybio{
+	margin-top: 0px;
+	font-size: 30px;
+	padding: 10px;
+	background-color: black;
+	color: hotpink;
+
+}
+p
+{
+	padding: 140px;
+
+	margin-top: 0px;
+}
+html {
+  margin: 40px auto;
+  text-align: center;
+}
+	.btn-linkedin {
+	  background: #0E76A8;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+	  padding: 10px;
+	  border-radius: 30px;
+	}
+	.btn-linkedin:link, .btn-linkedin:visited {
+	  color: #fff;
+	}
+	.btn-linkedin:active, .btn-linkedin:hover {
+	  background: hotpink;
+	  color: #fff;
+	}
+	.click{
+		margin-top: 35px;
+	}
+.content{
+	font-size: 45px;
+	margin-left: 0px;
+	margin-top: 0px;
+
+}
+
+
+
+
+/*contact me*/
+.email{
+	font-size: 60px;
+	color: white;
+	margin-top: 100px;
+
+
+}
+.number{
+	font-size: 30px;
+	color: hotpink;
+	margin-top: 50px;
+}
+.mainee{
+	background-color: black;
+	width: 100%;
+	height: 20vh;
+	color: hotpink;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 80px;
+}
+/*.contactform{
+	background-color:blue;
+	width: 500px;
+	height: 200px;
+	margin-top: 200px;
+	text-align: center;
+
+}
+*/
+header{
+	font-size: 60px;
+	margin-left: -60px;
+	color: hotpink;
+	background-color:black;
+	width: 100%;
+	height: 20px;
+}
